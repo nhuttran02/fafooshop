@@ -106,7 +106,7 @@
                   <v-card-text class="mt-12">
                     <h4 class="text-center">Login in to Your Account</h4>
                     <h6 class="text-center grey--text">
-                      Log in to your account so you can continue builiding
+                      Log in to your account so you can continue building
                       <br />and editing your onboarding flows
                     </h6>
                     <v-row align="center" justify="center">
@@ -187,7 +187,7 @@
                 <v-col cols="12" md="6" class="blue rounded-br-xl">
                   <div style="text-align: center; padding: 180px 0">
                     <v-card-text class="white--text">
-                      <h3 class="text-center">Alredy Signed up?</h3>
+                      <h3 class="text-center">Already Signed up?</h3>
                       <h6 class="text-center">
                         Log in to your account so you can continue building and
                         <br />
@@ -204,9 +204,9 @@
                   <v-card-text class="mt-12">
                     <h4 class="text-center">Sign Up for an Account</h4>
                     <h6 class="text-center grey--text">
-                      Let's get you all set up so you can start creatin your
+                      Let's get you all set up so you can start creating your
                       <br />
-                      first onboarding experiance
+                      first onboarding experience
                     </h6>
                     <v-row align="center" justify="center">
                       <v-col cols="12" sm="8">
