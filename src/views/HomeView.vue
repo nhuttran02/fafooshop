@@ -170,11 +170,11 @@
                             />
                             Accept all <a href="#">Terms & Conditions</a>
                             <!-- <p>
-                              Accept all rule <a href="#">Terms & Conditions</a>
+                              check Accept all rule <a href="#">Terms & Conditions</a>
                             </p> -->
                           </v-col>
                           <!-- <v-col cols="12" sm="5">
-                            <span class="caption blue--text ml-n4">
+                            <span class="caption blue-npm -text ml-n4">
                               Terms &Conditions
                             </span>
                           </v-col> -->
