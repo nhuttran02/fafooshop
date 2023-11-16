@@ -1,99 +1,3 @@
-<!-- <template>
-  <v-container>
-    <v-row justify="center" align="center">
-      <v-col cols="12" sm="10">
-        <v-card class="elevation-6 mt-10">
-          <v-window v-model="step">
-            <v-window-item :value="1">
-              <v-row>
-                <v-col cols="12" sm="6">
-                  <v-card-text class="mt-12">
-                    <h4 class="text-center">Login to your account</h4>
-                    <h6 class="text-center grey--text">
-                      Log in to your account so you can continue building
-                      <br />and editing your onboarding flows
-                    </h6>
-                    <v-row align="center" justify="center">
-                      <v-col cols="12" sm="8">
-                        <v-text-field
-                          label="Email"
-                          outlined
-                          dense
-                          color="blue"
-                          autocomplete="false"
-                          class="mt-16"
-                        ></v-text-field>
-                        <v-text-field
-                          label="Password"
-                          outlined
-                          dense
-                          color="blue"
-                          autocomplete="false"
-                          type="password"
-                        ></v-text-field>
-                        <v-row>
-                          <v-col cols="12" sm="7">
-                            <v-checkbox
-                              label="Remember Me"
-                              class="mt-n1"
-                              color="blue"
-                            ></v-checkbox>
-                          </v-col>
-                          <v-col cols="12" sm="5">
-                            <span class="caption blue--text">
-                              Forget password
-                            </span>
-                          </v-col>
-                        </v-row>
-                        <v-btn color="blue" dark block tile>Login</v-btn>
-                        <h5 class="text-center grey--text mt-4 mb-3">
-                          Or Login using
-                        </h5>
-                        <div
-                          class="d-flex justify-space-between align-center mx-10 mb-16"
-                        >
-                          <v-btn depressed outlined color="grey">
-                            <v-icon color="red">fab fa-google</v-icon>
-                          </v-btn>
-                          <v-btn depressed outlined color="grey">
-                            <v-icon color="blue">fab fa-facebook-f</v-icon>
-                          </v-btn>
-                          <v-btn depressed outlined color="grey">
-                            <v-icon color="light-blue lighten-3">
-                              fab fa-twitter
-                            </v-icon>
-                          </v-btn>
-                        </div>
-                      </v-col>
-                      <v-col cols="12" sm="6" class="blue rounded-bl-xl">
-                        <div style="text-align: center; padding: 180px 0">
-                          <v-card-text class="white--text">
-                            <h3 class="text-center">
-                              Don't have an account yet?
-                            </h3>
-                            <h6 class="text-center">
-                              Let's get you all set up account <br />
-                            </h6>
-                          </v-card-text>
-                          <div class="text-center">
-                            <v-btn tile outlined dark @click="step++">
-                              Sign up
-                            </v-btn>
-                          </div>
-                        </div>
-                      </v-col>
-                    </v-row>
-                  </v-card-text>
-                </v-col>
-              </v-row>
-            </v-window-item>
-          </v-window>
-        </v-card>
-      </v-col>
-    </v-row>
-  </v-container>
-</template> -->
-
 <template>
   <v-container>
     <v-row align="center" justify="center">
@@ -115,7 +19,7 @@
                           label="Email"
                           outlined
                           dense
-                          color="blue"
+                          color="#f5657b"
                           autocomplete="false"
                           class="mt-16"
                         />
@@ -123,17 +27,22 @@
                           label="Password"
                           outlined
                           dense
-                          color="blue"
+                          color="#f5657b"
                           autocomplete="false"
                           type="password"
                         />
                         <v-row>
                           <v-col cols="12" sm="7">
-                            <v-checkbox
+                            <input
+                              class="checkbox"
+                              color="#f5657b"
+                              type="checkbox"
+                            />Remember Me
+                            <!-- <v-checkbox
                               label="Remember Me"
                               class="mt-n1"
                               color="blue"
-                            ></v-checkbox>
+                            ></v-checkbox> -->
                           </v-col>
                           <v-col cols="12" sm="5">
                             <span class="caption blue--text">
@@ -165,7 +74,7 @@
                     </v-row>
                   </v-card-text>
                 </v-col>
-                <v-col cols="12" md="6" class="blue rounded-bl-xl">
+                <v-col cols="12" md="6" class="blue rounded-br-xl">
                   <div style="text-align: center; padding: 180px 0">
                     <v-card-text class="white--text">
                       <h3 class="text-center">Don't Have an Account Yet?</h3>
@@ -213,6 +122,7 @@
                         <v-row>
                           <v-col cols="12" sm="6">
                             <v-text-field
+                              height="56px"
                               label="First Name"
                               outlined
                               dense
@@ -225,8 +135,7 @@
                             <v-text-field
                               label="Last Name"
                               outlined
-                              dense
-                              color="blue"
+                              densecolor="blue"
                               autocomplete="false"
                               class="mt-4"
                             />
@@ -248,18 +157,27 @@
                           type="password"
                         />
                         <v-row>
-                          <v-col cols="12" sm="7">
-                            <v-checkbox
+                          <v-col cols="16" sm="12">
+                            <!-- <v-checkbox
                               label="I Accept AAE"
                               class="mt-n1"
                               color="blue"
-                            ></v-checkbox>
+                            ></v-checkbox> -->
+                            <input
+                              class="checkbox"
+                              color="blue"
+                              type="checkbox"
+                            />
+                            Accept all <a href="#">Terms & Conditions</a>
+                            <!-- <p>
+                              Accept all rule <a href="#">Terms & Conditions</a>
+                            </p> -->
                           </v-col>
-                          <v-col cols="12" sm="5">
+                          <!-- <v-col cols="12" sm="5">
                             <span class="caption blue--text ml-n4">
                               Terms &Conditions
                             </span>
-                          </v-col>
+                          </v-col> -->
                         </v-row>
                         <v-btn color="blue" dark block tile>Sign up</v-btn>
 
@@ -308,7 +226,11 @@ export default {
 .v-application .rounded-bl-xl {
   border-bottom-left-radius: 300px !important;
 }
+
 .v-application .rounded-br-xl {
   border-bottom-left-radius: 300px !important;
+}
+.blue {
+  background: linear-gradient(to right, #fca5a5, #fb7185, #f5657b);
 }
 </style>
